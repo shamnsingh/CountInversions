@@ -1,0 +1,3 @@
+Implementation of naive and count-sort algorithm for counting inversions.
+
+Demonstrate difference between O(n^2) and O(n logn) solution for counting inversions.
