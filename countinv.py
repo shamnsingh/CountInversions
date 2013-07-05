@@ -16,10 +16,10 @@ def count_sort(lower, upper, a):
 	
 	'Base case:'
 	if (n < 2):
-		return
+		return inv
 	elif (n == 2):
 		if (a[upper] >= a[lower]):
-			return
+			return inv
 		else:
 			inv += 1
 
@@ -27,7 +27,7 @@ def count_sort(lower, upper, a):
 			tmp = a[upper]
 			a[upper] = a[lower]
 			a[lower] = tmp
-			return
+			return inv
 
 	#Recursive implementation:
 	else:
