@@ -29,7 +29,7 @@ def count_sort(lower, upper, a):
 			a[lower] = tmp
 			return
 
-	'Recursive implementation:'
+	#Recursive implementation:
 	else:
 		count_sort(lower, (lower + upper) / 2, a)
 		count_sort((lower + upper) / 2 + 1, upper, a)
